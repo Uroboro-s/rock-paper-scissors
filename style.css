@@ -1,0 +1,89 @@
+body
+{
+   
+    background-image: url(images/bg3.jpg);
+   
+    background-size: cover ;
+    
+}
+#full_screen
+{
+    display: flex;
+  
+}
+
+
+#playerChoice
+{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.choice
+{
+
+flex:1 1 auto;
+margin: 10px;
+
+
+}
+#fight
+{
+    height:400px;
+    width: 56%;
+    background-color: rgb(180, 46, 20);
+    margin-top: 5cm;
+    border: 50px;
+    border-color: blue;
+    display:flex;
+    
+}
+.arena
+{
+   
+    flex:1 1 auto;
+    text-align: center;
+}
+#vs
+{
+margin-top: 135px;
+width: 33%;
+}
+#playerSelect
+{
+    width: 33%;
+}
+#compSelect
+{
+width:33%;
+}
+#points
+{
+    background-color: aliceblue;
+    
+    width: 300px;
+    height:300px;
+}
+#result
+{
+    background-color: aqua;
+    text-align: center;
+    font-size:xx-large;
+    text-justify: ;
+    
+}
+#panel
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.panelSub
+{
+    flex:1 1 0;
+}
+#pointsSuper :hover
+{
+    background-color: blueviolet;
+}

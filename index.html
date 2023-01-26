@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <div id="full_screen">
+        <div class="abc" id="playerChoice">
+            
+            <div class="choice"><button type="submit" id="rock"> <img src="images/rock.png" alt="Rock"></button></div>
+            <div class="choice"><button type ="submit" id="paper"><img src="images/paper.png" alt="Paper"></button></div>
+            <div class="choice"><button type="submit" id="scissors"><img src="images/scissors.png" alt="Scissors"></button></div>
+         </div>
+        <div class="abc" id="fight" >
+            
+            <div class="arena" ><img src="" id="playerSelect"></div>
+            <div class="arena" id="vs"><img src="images/vs.jpg" width="100"></div>
+            <div class="arena"><img src="" id="compSelect"></div>
+           
+        </div>
+        <div class="abc" id="panel">
+           <div class="panelSub" id="pointsSuper"> 
+               <table id="points">
+                <tr><th>POINTS</th></tr>
+                <tr>
+                    <td>Player</td>
+                    <td id="playerPoints">0</td>
+                </tr>
+                <tr>
+                    <td>Computer</td>
+                    <td id="computerPoints">0</td>
+                </tr>
+                <tr>
+                    <td>Hot Streak</td>
+                    <td id="streak"></td>
+                </tr>
+                <tr colspan="2" align="center">
+                    <td><button type="submit" id="restart">RESTART</button></td>
+                </tr>
+            
+                </table>
+            </div>
+            <div class="panelSub" id="result">
+                BEGIN</div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html> 
